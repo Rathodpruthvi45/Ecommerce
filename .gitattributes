@@ -1,0 +1,11 @@
+# Handle line endings
+* text=auto
+
+# Ensure certain files always have LF endings
+.gitignore text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.json text eol=lf
